@@ -56,7 +56,7 @@ class RecordApplication(TerminalApplication):
 
     def main(self, args):
         try:
-            import RTIMU
+            from . import RTIMU
         except ImportError:
             raise IOError(
                 _('unable to import RTIMU; ensure the Sense HAT library is '
