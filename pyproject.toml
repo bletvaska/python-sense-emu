@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "sense-emu"
+version = "1.2.0"
+description = "The Raspberry Pi Sense HAT Emulator library"
+authors = ["Raspberry Pi Foundation <info@raspberrypi.org>"]
+license = "LGPL-2.1-or-later"
+readme = "README.rst"
+homepage = "https://sense-emu.readthedocs.io/"
+documentation = "https://sense-emu.readthedocs.io/"
+repository = "https://github.com/astro-pi/python-sense-emu"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Environment :: X11 Applications :: GTK",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3.2",
+    "Programming Language :: Python :: 3.3",
+    "Programming Language :: Python :: 3.4",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering"
+]
+keywords = [ "raspberrypi", "sense hat" ]
+include = [
+    "sense_emu/locale/*/LC_MESSAGES/*.mo"
+]
+exclude = [
+    "sense_emu/*.xml",
+    "sense_emu/locale/*.po*",
+    "sense_emu/locale/README",
+]
+
+[tool.poetry.urls]
+"Issue Tracker" = "https://github.com/astro-pi/python-sense-emu/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.2"
+Pillow = "^9.0.1"
+PyGObject = "^3.42.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+ipython = "^8.0.1"
+pytest-cov = "^3.0.0"
+mock = "^4.0.3"
+Sphinx = "^4.4.0"
+sphinx-rtd-theme = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+sense_emu_gui = "sense_emu.gui:main"
+sense_rec = "sense_emu.record:app"
+sense_play = "sense_emu.play:app"
+sense_csv = "sense_emu.dump:app"
+

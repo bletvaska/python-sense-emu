@@ -3,25 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-12 20:13+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2021-09-03 12:23+0100\n"
+"PO-Revision-Date: 2022-02-12 19:12+0100\n"
+"Last-Translator: Mirek Biňas <mirek@cnl.sk>\n"
+"Language-Team: \n"
+"Language: sk_SK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: sense_emu/dump.py:37
 msgid ""
 "Converts a Sense HAT recording to CSV format, for the purposes of debugging "
 "or analysis."
 msgstr ""
+"Konvertuje Sense HAT záznam do formátu CSV pre potreby ladenia alebo analýzy."
 
 #: sense_emu/dump.py:41
 #, python-format
@@ -39,12 +41,12 @@ msgstr ""
 
 #: sense_emu/dump.py:53 sense_emu/play.py:47
 msgid "Invalid magic number at start of input"
-msgstr ""
+msgstr "Chybné magické číslo na začiatku vstupu"
 
 #: sense_emu/dump.py:55 sense_emu/play.py:49
 #, python-format
 msgid "Unrecognized file version number (%d)"
-msgstr ""
+msgstr "Číslo verzie súboru (%d) nebolo rozpoznané"
 
 #: sense_emu/dump.py:57
 #, python-format
@@ -62,43 +64,43 @@ msgstr ""
 
 #: sense_emu/gui.py:76 sense_emu/main_window.ui:77
 msgid "Sense HAT Emulator"
-msgstr ""
+msgstr "Sense HAT Emulátor"
 
 #: sense_emu/gui.py:90 sense_emu/gui.py:841
 msgid "Error"
-msgstr ""
+msgstr "Chyba"
 
 #: sense_emu/gui.py:92
 msgid "Another process is currently acting as the Sense HAT emulator"
-msgstr ""
+msgstr "Iný proces sa práve správa ako Sense HAT emulátor"
 
 #. I18N: Easy examples
 #: sense_emu/gui.py:121
 msgid "Simple"
-msgstr ""
+msgstr "Jednoduché"
 
 #. I18N: Intermediate skill examples
 #: sense_emu/gui.py:123
 msgid "Intermediate"
-msgstr ""
+msgstr "Stredne pokročílé"
 
 #. I18N: Difficult examples
 #: sense_emu/gui.py:125
 msgid "Advanced"
-msgstr ""
+msgstr "Pokročilé"
 
 #: sense_emu/gui.py:268
 msgid "Select the recording to play"
-msgstr ""
+msgstr "Vyberte nahrávku na prehrávanie"
 
 #: sense_emu/gui.py:283
 msgid "Preferences"
-msgstr ""
+msgstr "Nastavenia"
 
 #: sense_emu/gui.py:792
 #, python-format
 msgid "%s is not a Sense HAT recording"
-msgstr ""
+msgstr "%s nie je Sense HAT záznam"
 
 #: sense_emu/gui.py:794
 #, python-format
@@ -113,11 +115,11 @@ msgstr ""
 #: sense_emu/gui.py:821
 #, python-format
 msgid "Playing %s"
-msgstr ""
+msgstr "Prehráva sa %s"
 
 #: sense_emu/gui.py:842
 msgid "Error while replaying recording"
-msgstr ""
+msgstr "Chyba pri prehrávaní záznamu"
 
 #: sense_emu/play.py:39
 msgid ""
@@ -128,7 +130,7 @@ msgstr ""
 #: sense_emu/play.py:51
 #, python-format
 msgid "Playing back recording taken at %s"
-msgstr ""
+msgstr "Prehráva sa záznam vytvorený %s"
 
 #: sense_emu/play.py:82
 msgid "Skipping records to catch up"
@@ -142,7 +144,7 @@ msgstr ""
 #: sense_emu/play.py:97
 #, python-format
 msgid "Finished playback of %d records"
-msgstr ""
+msgstr "Ukončilo sa prehrávanie %d záznamov"
 
 #: sense_emu/record.py:35
 msgid ""
@@ -154,6 +156,7 @@ msgstr ""
 #, python-format
 msgid "the Sense HAT configuration file to use (default: %(default)s)"
 msgstr ""
+"konfiguračný súbor Sense HAT, ktorý sa použije (predvolený: %(default)s)"
 
 #: sense_emu/record.py:44
 msgid ""
@@ -180,32 +183,32 @@ msgstr ""
 
 #: sense_emu/record.py:65
 msgid "configuration filename must end with .ini"
-msgstr ""
+msgstr "súbor s konfiguráciou musí mať príponu .ini"
 
 #: sense_emu/record.py:67
 #, python-format
 msgid "Reading settings from %s"
-msgstr ""
+msgstr "Načítavajú sa nastavenia z %s"
 
 #: sense_emu/record.py:69
 msgid "Initializing sensors"
-msgstr ""
+msgstr "Inicializujú sa senzory"
 
 #: sense_emu/record.py:72
 msgid "Failed to initialize Sense HAT IMU"
-msgstr ""
+msgstr "Zlyhala inicializácia jednotky IMU na doske Sense HAT"
 
 #: sense_emu/record.py:75
 msgid "Failed to initialize Sense HAT pressure sensor"
-msgstr ""
+msgstr "Zlyhala inicializácia tlakového senzoru na doske Sense HAT"
 
 #: sense_emu/record.py:78
 msgid "Failed to initialize Sense HAT humidity sensor"
-msgstr ""
+msgstr "Zlyhala inicializácia senzoru vlhkosti na doske Sense HAT"
 
 #: sense_emu/record.py:83
 msgid "Starting recording"
-msgstr ""
+msgstr "Spúšťa sa záznam"
 
 #: sense_emu/record.py:93
 #, python-format
@@ -220,12 +223,12 @@ msgstr ""
 #: sense_emu/terminal.py:82
 #, python-format
 msgid "argument \"-\" with mode %r"
-msgstr ""
+msgstr "argument \"-\" s režimom %r"
 
 #: sense_emu/terminal.py:87
 #, python-format
 msgid "can't open '%(name)s': %(error)s"
-msgstr ""
+msgstr "nepodarilo sa otvoriť '%(name)s': %(error)s"
 
 #: sense_emu/terminal.py:132
 msgid "specify the configuration file to load"
@@ -245,38 +248,42 @@ msgstr ""
 
 #: sense_emu/terminal.py:151
 msgid "run under PDB (debug mode)"
-msgstr ""
+msgstr "spustiť s PDB (režim ladenia)"
 
 #: sense_emu/terminal.py:184
 #, python-format
 msgid "Reading configuration from %s"
-msgstr ""
+msgstr "Číta sa konfigurácia z %s"
 
 #: sense_emu/terminal.py:197
 #, python-format
 msgid "unable to locate [%s] section in configuration"
-msgstr ""
+msgstr "nepodarilo sa nájsť sekciu [%s] v konfigurácii"
 
 #: sense_emu/terminal.py:232
 msgid "Try the --help option for more information."
-msgstr ""
+msgstr "Viac informácií získate použitím voľby --help."
 
 #. Title above the emulated Sense HAT screen
 #: sense_emu/main_window.ui:104
 msgid "Screen"
-msgstr ""
+msgstr "Obrazovka"
 
 #: sense_emu/main_window.ui:122
 msgid ""
 "Rotate the Sense HAT 90 degrees clockwise; after rotation the joystick "
 "buttons will produce directions appropriate to the HAT's orientation"
 msgstr ""
+"Otočí Sense HAT o 90 stupňov v smere hodinových ručičiek; po otočení budú "
+"tlačidlá joysticku produkovať smery zodpovedajúce otočeniu dosky"
 
 #: sense_emu/main_window.ui:137
 msgid ""
 "Rotate the Sense HAT 90 degrees counter-clockwise; after rotation the "
 "joystick buttons will produce directions appropriate to the HAT's orientation"
 msgstr ""
+"Otočí Sense HAT o 90 stupňov proti smeru hodinových ručičiek; po otočení "
+"budú tlačidlá joysticku produkovať smery zodpovedajúce otočeniu dosky"
 
 #: sense_emu/main_window.ui:164
 msgid ""
@@ -286,20 +293,20 @@ msgstr ""
 
 #: sense_emu/main_window.ui:203
 msgid "Temperature"
-msgstr ""
+msgstr "Teplota"
 
 #: sense_emu/main_window.ui:245
 msgid "Pressure"
-msgstr ""
+msgstr "Tlak"
 
 #: sense_emu/main_window.ui:288
 msgid "Humidity"
-msgstr ""
+msgstr "Vlhkosť"
 
 #. Title above emulated Sense HAT joystick buttons
 #: sense_emu/main_window.ui:453
 msgid "Joystick"
-msgstr ""
+msgstr "Joystick"
 
 #: sense_emu/main_window.ui:479
 msgid "Pitch"
@@ -315,77 +322,83 @@ msgstr ""
 
 #: sense_emu/main_window.ui:562
 msgid "Orientation"
-msgstr ""
+msgstr "Orientácia"
 
 #. Cancels playback of a recording
 #: sense_emu/main_window.ui:606
 msgid "Stop"
-msgstr ""
+msgstr "Zastaviť"
 
 #: sense_emu/menu.ui:5
 msgid "_File"
-msgstr ""
+msgstr "_Súbor"
 
 #: sense_emu/menu.ui:8
 msgid "_Open example"
-msgstr ""
+msgstr "_Otvoriť príklad"
 
 #: sense_emu/menu.ui:12
 msgid "_Replay recording..."
-msgstr ""
+msgstr "_Prehrať záznam..."
 
 #: sense_emu/menu.ui:19
 msgid "_Quit"
-msgstr ""
+msgstr "_Ukončiť"
 
 #: sense_emu/menu.ui:25
 msgid "_Edit"
-msgstr ""
+msgstr "_Upraviť"
 
 #: sense_emu/menu.ui:29
 msgid "_Preferences..."
-msgstr ""
+msgstr "_Nastavenia..."
 
 #: sense_emu/menu.ui:34
 msgid "_Help"
-msgstr ""
+msgstr "_Pomocník"
 
 #: sense_emu/menu.ui:38
 msgid "Contents"
-msgstr ""
+msgstr "Obsah"
 
 #: sense_emu/menu.ui:44
 msgid "_About..."
-msgstr ""
+msgstr "_O programe..."
 
 #: sense_emu/prefs_dialog.ui:93
 msgid "Simulate"
-msgstr ""
+msgstr "Simulovať"
 
 #: sense_emu/prefs_dialog.ui:106
 msgid "Screen updates"
-msgstr ""
+msgstr "Aktualizácia obrazovky"
 
 #: sense_emu/prefs_dialog.ui:116
 msgid "Environment sensors"
-msgstr ""
+msgstr "Senzory prostredia"
 
 #: sense_emu/prefs_dialog.ui:120
 msgid ""
 "When checked, the emulator will continually simulate \"noise\" on the "
 "environment sensors (the temperature, pressure, and humidity sliders)"
 msgstr ""
+"Po zvolení bude emulátor neustále simulovať \"šum\" na senzoroch prostredia "
+"(posuvníky teploty, tlaku a vlhkosti)"
 
 #: sense_emu/prefs_dialog.ui:130
 msgid "Inertial measurement unit"
-msgstr ""
+msgstr "Inerciálna meracia jednotka"
 
 #: sense_emu/prefs_dialog.ui:134
+#, fuzzy
 msgid ""
 "When checked, the emulator will constantly simulate accelerometer (gravity "
 "induced), gyroscope (rate of change), and magnetometer (relative North) "
 "values based on the yaw, pitch, and roll sliders"
 msgstr ""
+"Po zvolení bude emulátor neustále simulovať hodnoty zrýchlenia (spolu s "
+"gravitáciou), gyroskopu (frekvenciou zmeny) a magnetometru (s relatívnym "
+"severom) na základe posuvníkov yaw, pitch a roll"
 
 #: sense_emu/prefs_dialog.ui:146
 msgid ""
@@ -393,38 +406,47 @@ msgid ""
 "real HAT updates at 60fps but emulation at this speed can cause issues on "
 "slower Pi's"
 msgstr ""
+"Nastaví maximálnu frekvenciu aktualizácie emulovaného displeja. Skutočný HAT "
+"má frekvenciu aktualizácii 60fps, ale emulácia pri tejto rýchlosti môže "
+"spôsobovať problémy na pomalších počítačoch Pi"
 
 #: sense_emu/prefs_dialog.ui:166
 msgid "fps"
-msgstr ""
+msgstr "fps"
 
 #: sense_emu/prefs_dialog.ui:185
 msgid "Orientation scale"
-msgstr ""
+msgstr "Stupnica orientácie"
 
 #: sense_emu/prefs_dialog.ui:200
 msgid ""
 "When selected, the orientation sliders will have a minimum of -180°, a mid-"
 "point at 0°, and a maximum of 180°"
 msgstr ""
+"Po zvolení budú mať posuvníky orientácie minimum -180°, stred 0° a maximum "
+"180°"
 
 #: sense_emu/prefs_dialog.ui:216
 msgid ""
 "When selected, the orientation sliders will have a minimum of 0°, a mid-"
 "point at 180°, and a maximum of 360°"
 msgstr ""
+"Po zvolení budú mať posuvníky orientácie minimum 0°, stred 180° a maximum "
+"360°"
 
 #: sense_emu/prefs_dialog.ui:233
 msgid ""
 "When selected, the orientation sliders will have a minimum of 180°, a mid-"
 "point at 0° (immediately after 359°), and a maximum of 180°"
 msgstr ""
+"Po zvolení budú mať posuvníky orientácie minimum 180°, stred 0° (okamžite po "
+"359°) a maximum 180°"
 
 #: sense_emu/prefs_dialog.ui:248
 msgid "Editor command"
-msgstr ""
+msgstr "Príkaz na spustenie editora"
 
 #: sense_emu/prefs_dialog.ui:261
 #, python-format
 msgid "editor %s"
-msgstr ""
+msgstr "editor %s"

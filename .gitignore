@@ -39,3 +39,5 @@ coverage
 # Generated images
 icons/*/
 !icons/scalable/
+
+poetry.lock

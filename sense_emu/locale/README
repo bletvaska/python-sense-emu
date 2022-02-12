@@ -2,7 +2,7 @@ To construct new translations, just use the standard gettext tools to create
 new .po files in this directory. For example, to create a translation for
 French:
 
-  $ msginit -lfr_FR
+  $ msginit -l fr_FR
 
 Fill out the .po file accordingly, then the Makefile will take care of
 construction of the .mo files during the package build. 
